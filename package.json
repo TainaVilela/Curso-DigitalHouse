@@ -1,0 +1,26 @@
+{
+  "name": "DigitalHouse",
+  "version": "1.0.0",
+  "description": "Repositório criado para armazenar as aulas do curso de desenvolvimento web full stack lecionado na turma 12 - 2020",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TainaVilela/Curso-DigitalHouse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TainaVilela/Curso-DigitalHouse/issues"
+  },
+  "homepage": "https://github.com/TainaVilela/Curso-DigitalHouse#readme"
+}
