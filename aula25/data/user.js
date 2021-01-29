@@ -1,0 +1,1 @@
+module.exports = [{"id":1,"name":"TAINA DANTAS VILELA BARBOSA","email":"tainadantas89@gmail.com","password":"$2b$10$Om89tEF./lKmVrAix708D.flatkqvM/EqY41J0jTACPhvt7YOTJjC"}]
