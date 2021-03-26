@@ -40,9 +40,12 @@ module.exports = {
       return res.render('login', { notFound: true });
     }
 //apagando propriedades password para que o usuario logado não trafegue com sua senha
-    delete user.password;
+ 
+//apagando propriedades password para que o usuario logado não trafegue com sua senha
+let { password: pass, ...userWithoutPassword } = user;
 
-    req.session.user = user;
+//criando sessão contendo informaçoes do usuario que ira logar
+    req.session.user = userWithoutPassword;
 
     res.render('recipes', { user: req.session.user, recipes });
   },
@@ -51,5 +54,4 @@ module.exports = {
     req.session.destroy();
     res.redirect('/');
   }
-
 }

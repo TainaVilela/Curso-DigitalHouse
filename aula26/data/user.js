@@ -1,1 +1,1 @@
-module.exports = [{"id":1,"name":"TAINA DANTAS VILELA BARBOSA","email":"tainadantas89@hotmail.com"},{"id":2,"name":"Joao","email":"joao@joao.com","password":"$2b$10$UiB6rFLeCZfaiKh.nz0pQ.xYUOe0asqy2AK/KYJokpQp9P1KP83my"},{"id":3,"name":"Bali","email":"bali@bali.com","password":"$2b$10$WpSw9sYyW5G9EayysCd39OsQhpPki.3Vu/eyhuLmXXnf3110F.R9q"}]
+module.exports = [{"id":1,"name":"Cassio Luiz Lira Si","email":"cassio@gmail.com","password":"$2b$10$2geFc3yP7y2/eJiw7eb3u.x01MZZGFj7UcmZNMHANaZv0fx0pI4J."}]

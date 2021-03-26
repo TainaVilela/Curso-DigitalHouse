@@ -4,7 +4,7 @@ const saveData = require("../utils/saveData");
 // 1ª forma que voces podem encontrar de exportar metodos do controller
 module.exports = {
   index(req, res, next){
-    res.render('recipes', { recipes: recipes });
+    res.render('recipes', { recipes, user: req.session.user });
   },
 
   save(req, res, next){
@@ -30,7 +30,7 @@ module.exports = {
     // obter a receita para altera-la
     let recipe = recipes.find(recipe => recipe.id == id);
 
-    res.render('edit-recipe', { recipe });
+    res.render('edit-recipe', { recipe, user: req.session.user });
   },
 
   async update(req, res, next){
