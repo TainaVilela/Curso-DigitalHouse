@@ -1,0 +1,1 @@
+module.exports = [{"id":1,"name":"Cassio Luiz Lira Si","email":"cassio@gmail.com","password":"$2b$10$2geFc3yP7y2/eJiw7eb3u.x01MZZGFj7UcmZNMHANaZv0fx0pI4J."}]
