@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const config = {
     username: process.env.USER,
     password: process.env.PASSWORD,
@@ -5,5 +7,5 @@ const config = {
     host: process.env.HOST,
     dialect: 'mysql'
 }
-
+ console.log(config)
 module.exports = config;

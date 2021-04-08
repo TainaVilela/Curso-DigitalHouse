@@ -10,7 +10,7 @@ module.exports = {
       },
       name: Sequelize.STRING,
       email: Sequelize.STRING,
-      messenger: Sequelize.STRING,
+      message: Sequelize.STRING,
       createdAt: Sequelize.DATE,
       updatedAt: Sequelize.DATE,
       
