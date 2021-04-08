@@ -39,7 +39,7 @@ form textarea{
 }
 
 #recipes{
-  height: calc(100vh - 80px);
+  height: calc(100vh - 30px);
 }
 footer{
   height: 100px;
